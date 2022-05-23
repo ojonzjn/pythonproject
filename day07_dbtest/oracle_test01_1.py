@@ -11,3 +11,5 @@ m = input("사원의 이름 일부를 입력하세요 : ")
 cursor.execute(f"select * from emp where ename like '%{m}%'")
 for item in cursor:
     print(item[1:8])
+
+    #수정완료
