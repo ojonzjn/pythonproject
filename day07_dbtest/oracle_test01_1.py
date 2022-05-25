@@ -1,4 +1,5 @@
 import cx_Oracle
+# 오라클 db와 연동을 위한 수정
 
 conn = cx_Oracle.connect('scott','tiger','192.168.1.11:1521/XE')
 cursor = conn.cursor()
